@@ -1,7 +1,7 @@
 {
   "$schema": "https://modelcontextprotocol.io/schemas/draft/2025-07-09/server.json",
   "description": "MCP.ServerToolkit is a lightweight learning-oriented framework for building Model Context Protocol (MCP) servers in .NET. It provides a progressive set of ready-to-use tools, starting from simple echo and math evaluators to more advanced scenarios like to-do management, file I/O, chat simulation, payment workflows, and monitoring. Designed to be implemented step by step, this package helps developers understand MCP concepts through practical examples while offering an extensible foundation to experiment, prototype, and extend real-world MCP use cases.",
-  "name": "io.github.kanhaiyatyagi63/mcptoolkit",
+  "name": "io.github.kanhaiyatyagi63/AIAgentServer",
   "packages": [
     {
       "registry_name": "nuget",
@@ -12,7 +12,7 @@
     }
   ],
   "repository": {
-    "url": "https://github.com/kanhaiyatyagi63/mcptoolkit",
+    "url": "https://github.com/kanhaiyatyagi63/AIAgentServer",
     "source": "github"
   },
   "version_detail": {
