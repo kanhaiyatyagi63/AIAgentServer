@@ -27,7 +27,6 @@ internal class RandomNumberTools
         [Description("Minimum value (inclusive)")] int min = 0,
         [Description("Maximum value (exclusive)")] int max = 100)
     {
-        Debugger.Launch();
         return Random.Shared.Next(min, max);
     }
 }
