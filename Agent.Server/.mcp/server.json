@@ -6,10 +6,20 @@
     {
       "registry_name": "nuget",
       "name": "Katy.McpToolKit",
-      "version": "0.1.3-beta",
+      "version": "0.1.4-beta",
       "package_arguments": [],
       "environment_variables": [
-        "APPSETTING__ENVIRONMENT"
+        {
+          "name": "APPSETTING__ENVIRONMENT",
+          "value": "{APPSETTING__ENVIRONMENT}",
+          "variables": {
+            "APPSETTING__ENVIRONMENT": {
+              "description": "Current environment name.",
+              "is_required": false,
+              "is_secret": false
+            }
+          }
+        }
       ]
     }
   ],
@@ -18,6 +28,6 @@
     "source": "github"
   },
   "version_detail": {
-    "version": "0.1.3-beta"
+    "version": "0.1.4-beta"
   }
 }
